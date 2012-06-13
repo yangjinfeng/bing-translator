@@ -48,8 +48,8 @@ public class BingTranslator {
     	HttpPost post = new HttpPost(datamarketAccessUri);
     	List<NameValuePair> nvps = new ArrayList<NameValuePair>();
     	nvps.add(new BasicNameValuePair("grant_type", "client_credentials"));
-    	nvps.add(new BasicNameValuePair("client_id", "yangjinfeng"));
-    	nvps.add(new BasicNameValuePair("client_secret", "BROx7WorZYCyf4IYRABH86vXzyusd9s14HLV+NPV51Q="));
+    	nvps.add(new BasicNameValuePair("client_id", "myclientid"));
+    	nvps.add(new BasicNameValuePair("client_secret", "mysecret+NPV51Q="));
     	nvps.add(new BasicNameValuePair("scope", "http://api.microsofttranslator.com"));
     	post.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 
