@@ -1,0 +1,1 @@
+java -cp lib/yjfrun.jar yjf.Main p.BingTranslator lib input.txt output.txt
